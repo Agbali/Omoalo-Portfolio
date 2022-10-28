@@ -1,14 +1,32 @@
 
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
-
+:root{
+    --primary-color: blueviolet;
+    --secondary-color: #f5f2fe;
+}
 h1{
     color: black;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    font-size: 100px;
 }
 
 p{
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.top-page{
+    margin: 30px auto;
+    padding: 10px 10px;
+}
+
+.mid-page{
+    margin-top: 50px;
 }
