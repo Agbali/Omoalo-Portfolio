@@ -4,44 +4,98 @@ font-family: 'Poppins', sans-serif; */
 :root{
     --primary-color: blueviolet;
     --secondary-color: rgb(163, 177, 189);
-    --font-fam: 'Playfair Display', serif;
+    --heading-font-fam: 'Playfair Display', serif;
+    --default-font-fam: 'Poppins', sans-serif;
 }
 
 body{
     background: black;
+   
 }
 h1{
     color: var(--primary-color);
-    font-family: var(--font-fam);
-    font-weight: bold;
+    font-family: var(--heading-font-fam);
+    font-weight: bolder;
     font-size: 100px;
 }
 
-h2, p{
-    color: rgb(163, 177, 189);
-}
-
-p{
-    font-family: 'Poppins', sans-serif;
+h2{
+    color: var(--secondary-color);
+    font-family: var(--default-font-fam);
     font-weight: normal;
 }
-
-.text-color{
-    font-family: var(--font-fam);
+p{
     color: var(--secondary-color);
-    font-weight: bold;
-    font-size: 20px ;
+    font-family: var(--default-font-fam);
+    font-weight: normal;
+    padding: 5px 30px;
+    
 }
+
+.mid-page{
+    padding: 90px 5px;
+    text-align: center;
+
+}
+
+@media (max-width: 596px){
+    .mid-page {
+        text-align: center;  
+    }
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 18px;
+        padding: 10px 70px ;
+    }
+}
+
+/* @media (max-width: 992px){
+    .mid-page {
+        text-align: left;
+    }
+
+    .mid-page h1 h2 p .buttoned{
+        padding: 5px 10px;
+    }
+
+    h1{
+        font-size: 55px;
+        
+    }
+    h2{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 20px;
+        
+    }
+} */
 
 .top-page{
     margin: 30px auto;
     padding: 0px 20px 0px 20px;
 }
 
-.mid-page{
-    margin-top: 50px;
+.navig{
+    color: white;
 }
 
-/* .profpic{
-    margin-left: 10px;
-} */
+.buttoned{
+    color: white;
+    background: var(--primary-color);
+    border-radius: 4px;
+    margin-top: 10px;
+    margin: 10px 0px 40px 0px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
