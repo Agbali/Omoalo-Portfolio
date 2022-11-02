@@ -6,8 +6,13 @@ font-family: 'Poppins', sans-serif; */
     --secondary-color: rgb(163, 177, 189);
     --heading-font-fam: 'Playfair Display', serif;
     --default-font-fam: 'Poppins', sans-serif;
+    
 }
 
+
+.bg-gradient {
+    background-image: var(--bs-gradient);
+}
 body{
     background: #212529;
    
@@ -21,7 +26,7 @@ h1{
     color: var(--primary-color);
     font-family: var(--heading-font-fam);
     font-weight: bolder;
-    font-size: 100px;
+    font-size: 90px;
 }
 
 h2{
@@ -55,8 +60,8 @@ p{
 
 }
 
-
 @media (max-width: 992px){
+
     h1{
         font-size: 45px;
     }
@@ -80,6 +85,15 @@ p{
     .diction{
         margin-top: 45px;
     }
+
+    .about-section{
+        text-align: center;
+        padding: 0;
+    }
+
+    .about-section h1{
+        font-size: 20px;
+    }
 }
 
 .projects-area{
@@ -91,8 +105,6 @@ p{
     margin: 30px auto;
     padding: 0px 20px 0px 20px;
 }
-
-
 
 .buttoned{
     color: white;
@@ -124,4 +136,30 @@ p{
         padding: 0;
         text-align: center ;
     }
+}
+
+.about-section{
+    padding: 80px 20px;
+}
+
+.about-section h1{
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about-section h2{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.about-section p {
+    padding: 0;
+    font-size: 13px;
+    line-height: 2;
+    font-weight: normal;
+    font-family: var(--default-font-fam);
+}
+
+.about-section-content{
+    margin: 30px;
 }
