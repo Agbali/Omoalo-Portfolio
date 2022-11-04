@@ -18,6 +18,7 @@ body {
 .logo {
   max-width: 50px;
 }
+
 .logo-text {
   font-family: Helvetica;
   font-size: 25px;
@@ -25,20 +26,15 @@ body {
 }
 
 .second-part-navigation {
-  margin-left: 410px;
+  margin-left: 370px;
   line-height: 50px;
 }
 
 .second-part-navigation a:hover {
   color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 
-nav {
-  padding: 20px 0;
-}
-nav ul {
-  padding: 0;
-}
 nav li {
   display: inline;
   list-style: none;
@@ -47,22 +43,10 @@ nav li {
   font-family: var(--default-font-fam);
 }
 
-nav a {
-  text-decoration: none;
-  color: var(--secondary-color);
-  transition: all 100ms ease-in-out;
-}
-
-nav li.active a,
-nav a:hover {
-  color: var(--primary-color);
-}
-
-nav li.active a {
-  color: var(--primary-color);
-}
 .navig {
   color: white;
+  line-height: 42px;
+  font-family: var(--default-font-fam);
 }
 
 h1 {
