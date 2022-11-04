@@ -24,8 +24,13 @@ body {
   margin: 2px 0 0 9px;
 }
 
-.touching-up-navigation{
-   line-height: 50px;
+.second-part-navigation {
+  margin-left: 410px;
+  line-height: 50px;
+}
+
+.second-part-navigation a:hover {
+  color: var(--primary-color);
 }
 
 nav {
