@@ -1,188 +1,222 @@
-
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
-:root{
-    --primary-color: blueviolet;
-    --secondary-color: rgb(163, 177, 189);
-    --heading-font-fam: 'Playfair Display', serif;
-    --default-font-fam: 'Poppins', sans-serif;
-    
+:root {
+  --primary-color: blueviolet;
+  --secondary-color: rgb(163, 177, 189);
+  --heading-font-fam: "Playfair Display", serif;
+  --default-font-fam: "Poppins", sans-serif;
 }
-
 
 .bg-gradient {
-    background-image: var(--bs-gradient);
+  background-image: var(--bs-gradient);
 }
-body{
-    background: #212529;
-   
-}
-
-.navig{
-    color: white;
+body {
+  background: #212529;
+  color: white;
 }
 
-h1{
-    color: var(--primary-color);
-    font-family: var(--heading-font-fam);
-    font-weight: bolder;
-    font-size: 90px;
+.logo {
+  max-width: 50px;
+}
+.logo-text {
+  font-family: Helvetica;
+  font-size: 25px;
+  margin: 2px 0 0 9px;
 }
 
-h2{
-    color: var(--secondary-color);
-    font-family: var(--default-font-fam);
-    font-weight: normal;
+.touching-up-navigation{
+   line-height: 50px;
 }
 
-
-p{
-    color: var(--secondary-color);
-    font-family: var(--default-font-fam);
-    font-weight: normal;
-    padding: 5px 50px;
-    line-height: 1.5;
-    
+nav {
+  padding: 20px 0;
 }
-.project-parags{
-    color: var(--secondary-color);
-    font-family: var(--default-font-fam);
-    font-weight: normal;
-    padding: 0;
-    line-height: 1.5;
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+  line-height: 42px;
+  font-family: var(--default-font-fam);
 }
 
-.htwo-font{
-    font-size: 54px;
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
-.mid-page{
-    padding: 90px 5px;
-    text-align: center;
-
+nav li.active a,
+nav a:hover {
+  color: var(--primary-color);
 }
 
-@media (max-width: 992px){
-
-    h1{
-        font-size: 45px;
-    }
-    h2{
-        font-size: 15px;
-        font-weight: bold;
-    }
-    p{
-        font-size: 13px;
-        padding: 10px 20px ;
-    }
-
-    .project-parags{
-        padding: 0px 5px;
-        line-height: 1.5;
-    }
-    
-    .htwo-font{
-        font-size: 30px;
-    }
-    .diction{
-        margin-top: 45px;
-    }
-
-    .content-container{
-        text-align: center;
-        padding: 0;
-    }
-
-    .content-container h1{
-        font-size: 20px;
-    }
+nav li.active a {
+  color: var(--primary-color);
+}
+.navig {
+  color: white;
 }
 
-.projects-area{
-    background: black;
+h1 {
+  color: var(--primary-color);
+  font-family: var(--heading-font-fam);
+  font-weight: bolder;
+  font-size: 90px;
 }
 
-
-.full-page{
-    margin: 30px auto;
-    padding: 0px 20px 0px 20px;
+h2 {
+  color: var(--secondary-color);
+  font-family: var(--default-font-fam);
+  font-weight: normal;
 }
 
-.buttoned{
-    color: white;
-    background: var(--primary-color);
-    border-radius: 4px;
-    margin-top: 10px;
-    margin: 10px 0px 40px 0px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 12px 20px;
-    cursor: pointer;
+p {
+  color: var(--secondary-color);
+  font-family: var(--default-font-fam);
+  font-weight: normal;
+  padding: 5px 50px;
+  line-height: 1.5;
+}
+.project-parags {
+  color: var(--secondary-color);
+  font-family: var(--default-font-fam);
+  font-weight: normal;
+  padding: 0;
+  line-height: 1.5;
 }
 
-.btn-for-projects{
-    line-height: 27px;
-    font-size: 18px;
-    padding: 12px 20px;
-    border-radius: 4px;
-    color: var(--secondary-color);
-    border: 3px solid var(--primary-color);
+.htwo-font {
+  font-size: 54px;
 }
 
-.project-desc{
-    padding: 120px 60px;
+.mid-page {
+  padding: 90px 5px;
+  text-align: center;
 }
 
-@media(max-width: 992px){
-    .project-desc{
-        padding: 0;
-        text-align: center ;
-    }
-}
-
-.content-container{
-    padding: 80px 20px;
-}
-
-.content-container h1{
-    font-size: 64px;
-    line-height: 80px;
-}
-
-.content-container h2{
+@media (max-width: 992px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
     font-size: 15px;
     font-weight: bold;
+  }
+  p {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+
+  .project-parags {
+    padding: 0px 5px;
+    line-height: 1.5;
+  }
+
+  .htwo-font {
+    font-size: 30px;
+  }
+  .diction {
+    margin-top: 45px;
+  }
+
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+
+  .content-container h1 {
+    font-size: 20px;
+  }
+  nav a {
+    font-size: 12px;
+  }
+}
+
+.projects-area {
+  background: black;
+}
+
+.full-page {
+  margin: 30px auto;
+  padding: 0px 20px 0px 20px;
+}
+
+.buttoned {
+  color: white;
+  background: var(--primary-color);
+  border-radius: 4px;
+  margin-top: 10px;
+  margin: 10px 0px 40px 0px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.btn-for-projects {
+  line-height: 27px;
+  font-size: 18px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: var(--secondary-color);
+  border: 3px solid var(--primary-color);
+}
+
+.project-desc {
+  padding: 120px 60px;
+}
+
+@media (max-width: 992px) {
+  .project-desc {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.content-container {
+  padding: 80px 20px;
+}
+
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content-container h2 {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .content-container p {
-    padding: 0;
-    font-size: 13px;
-    line-height: 2;
-    font-weight: normal;
-    font-family: var(--default-font-fam);
+  padding: 0;
+  font-size: 13px;
+  line-height: 2;
+  font-weight: normal;
+  font-family: var(--default-font-fam);
 }
 
-.content{
-    margin: 30px;
+.content {
+  margin: 30px;
 }
 
-.content h1{
-    text-align: center;
-    padding: 0;
-    
+.content h1 {
+  text-align: center;
+  padding: 0;
 }
 
-.content h3{
-    color: var(--secondary-color);
-    font-family: var(--default-font-fam);
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.5;
-    
+.content h3 {
+  color: var(--secondary-color);
+  font-family: var(--default-font-fam);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
-.content p{
-    color: var(--secondary-color);
-    font-family: var(--default-font-fam);
-    font-weight: normal;
+.content p {
+  color: var(--secondary-color);
+  font-family: var(--default-font-fam);
+  font-weight: normal;
 }
