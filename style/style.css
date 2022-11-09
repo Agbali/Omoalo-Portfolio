@@ -187,8 +187,13 @@ p {
   color: var(--primary-color);
 }
 
-.contact-container h3{
+.icon-color{
+  color: var(--secondary-color);
   text-decoration: none;
+}
+
+.icon-color:hover{
+  color: var(--primary-color);
 }
 
 .content-container h1 {
