@@ -26,7 +26,7 @@ body {
 }
 
 .second-part-navigation {
-  margin-left: 370px;
+  margin-left: 300px;
   line-height: 50px;
 }
 
@@ -35,13 +35,13 @@ body {
   transition: all 100ms ease-in-out;
 }
 
-nav li {
+/* nav li {
   display: inline;
   list-style: none;
   margin-left: 10px;
   line-height: 42px;
   font-family: var(--default-font-fam);
-}
+} */
 
 .navig {
   color: white;
@@ -107,6 +107,7 @@ p {
   .htwo-font {
     font-size: 30px;
   }
+
   .diction {
     margin-top: 45px;
   }
@@ -121,6 +122,14 @@ p {
   }
   nav a {
     font-size: 12px;
+  }
+  .second-part-navigation {
+    margin-left: 30px;
+    line-height: 30px;
+  }
+  
+  .contact-container h2 {
+    font-size: 15px; 
   }
 }
 
@@ -165,8 +174,21 @@ p {
   }
 }
 
-.content-container {
-  padding: 80px 20px;
+
+
+.content-container, .contact-container {
+  padding: 80px 30px;
+}
+
+.contact-container h2 {
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.contact-container h3{
+  text-decoration: none;
 }
 
 .content-container h1 {
