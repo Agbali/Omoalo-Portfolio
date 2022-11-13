@@ -176,24 +176,8 @@ p {
 
 
 
-.content-container, .contact-container {
+.content-container {
   padding: 80px 30px;
-}
-
-.contact-container h2 {
-  font-size: 55px;
-  font-weight: bold;
-  text-align: center;
-  color: var(--primary-color);
-}
-
-.icon-color{
-  color: var(--secondary-color);
-  text-decoration: none;
-}
-
-.icon-color:hover{
-  color: var(--primary-color);
 }
 
 .content-container h1 {
@@ -235,4 +219,33 @@ p {
   color: var(--secondary-color);
   font-family: var(--default-font-fam);
   font-weight: normal;
+}
+
+
+.contact-container{
+  padding: 60px 30px;
+  margin-bottom: -30px;
+}
+
+.contact-container h2 {
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  color: var(--primary-color);
+}
+
+.icon-color{
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.icon-color:hover{
+  color: var(--primary-color);
+}
+
+footer p{
+  margin-bottom: -30px;
+  font-size: 15px;
+  letter-spacing: 2px;
 }
