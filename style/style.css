@@ -1,7 +1,7 @@
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
 :root {
-  --primary-color: blueviolet;
+  --primary-color: #8a2be2;
   --secondary-color: rgb(163, 177, 189);
   --heading-font-fam: "Playfair Display", serif;
   --default-font-fam: "Poppins", sans-serif;
@@ -45,7 +45,7 @@ body {
 
 .navig {
   color: white;
-  line-height: 42px;
+  line-height: 12px;
   font-family: var(--default-font-fam);
 }
 
@@ -138,7 +138,7 @@ p {
 }
 
 .full-page {
-  margin: 30px auto;
+  margin: 20px auto;
   padding: 0px 20px 0px 20px;
 }
 
