@@ -130,6 +130,11 @@ p {
     padding: 0;
   }
 
+  .takeLook{
+    font-size: 10px;
+  }
+  
+
   footer p {
     font-size: 4px;
     padding: 1px 5px;
@@ -188,7 +193,6 @@ p {
   }
 }
 
-
 .contact-container h2 {
   font-weight: bold;
   text-align: center;
@@ -212,8 +216,7 @@ p {
 .content-container h1 {
   color: var(--primary-color);
   font-family: var(--heading-font-fam);
-  font-size: 50px;
-  text-align: center;
+  text-align: center;  
 }
 
 .content-container h2 {
