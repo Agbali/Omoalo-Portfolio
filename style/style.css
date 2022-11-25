@@ -193,6 +193,7 @@ p {
   }
 }
 
+
 .contact-container h2 {
   font-weight: bold;
   text-align: center;
@@ -230,6 +231,10 @@ p {
   line-height: 2;
   font-weight: normal;
   font-family: var(--default-font-fam);
+}
+
+.GraceAssembly{
+  margin-top: 150px;
 }
 /* 
 .content {
