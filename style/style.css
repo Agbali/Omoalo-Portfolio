@@ -48,7 +48,9 @@ body {
   line-height: 12px;
   font-family: var(--default-font-fam);
 }
-
+.bckg{
+  background: #212529;
+}
 .mid-page h1 {
   color: var(--primary-color);
   font-family: var(--heading-font-fam);
